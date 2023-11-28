@@ -48,18 +48,20 @@ Text
 .text {
   text-align: center;
   padding: 0 20px;
-  font-size: 16px;
+  font-size: 25px;
+  font-weight: bold;
   color: #fff;
 
   position: absolute;
-  bottom: 10px;
+  top: 40px;
   z-index: 10;
 }
 
 /* .textクラスの子孫要素である.site-titleクラスの要素にスタイルを適用 */
 .text .site-title {
   margin-bottom: 20px;
-  font-size: 32px;
+  font-weight: bold;
+  font-size: 48px;
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
 }
 
