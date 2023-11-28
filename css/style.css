@@ -19,7 +19,7 @@ a {
 
 .wrapper{
   position: relative;
-  background-color: rgb(232, 152, 14);
+  background-image: url("main_back.jpg") ;
   margin-bottom: 70px;
 
     display: flex;
@@ -144,4 +144,12 @@ SP
   .flex li {
     width: 100%;
   }
+  .flex li h2 {
+    margin-bottom: 30px;
+  }
+
+  #mainvisual img {
+    height: 100vh;
+  } 
+
 }
